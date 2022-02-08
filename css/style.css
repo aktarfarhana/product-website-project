@@ -193,6 +193,7 @@
    width: 100%;
    height: 2430px;
    margin-top: 50px;
+   min-width: 100vh;
    
 }
 
@@ -200,13 +201,12 @@
     border: none;
     box-shadow: 10px 10px 40px #c4c1c1 ;
     height: 760px;
-    margin-left: 20px;
+    margin-left: 10px;
    
    }
    .card-img-top{
       height: 500px;
       width: 600px;
-      text-align: center;
       margin-left: 50px;
    }
 
@@ -241,6 +241,7 @@ h2{
  .row4{
    width: 100%;
    height: 2400px;
+   min-width: 100vh;
    
 }
 .row4 .card{
@@ -248,10 +249,13 @@ h2{
    border: none;
     box-shadow: 10px 10px 40px #c4c1c1 ;
     height: 760px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin: 20px;
 }
 .footer p{
    margin-left: 20px;
-   font-size: 16px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
 }
 }
